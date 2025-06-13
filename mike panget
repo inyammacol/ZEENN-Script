@@ -46,7 +46,7 @@ task.spawn(function()
 
     wait(2) -- Hold both elements in the center for a moment
 
-    -- Phase 3: Moon and "ZEENN SCRIPTS" move off-screen, background fades
+    -- Phase 3: Moon and "ZHY SCRIPTS" move off-screen, background fades
     local exitTweenInfo = TweenInfo.new(0.8, Enum.EasingStyle.Sine, Enum.EasingDirection.Out, 0, false, 0) -- Exit animation speed
 
     -- Moon goes further left off-screen
